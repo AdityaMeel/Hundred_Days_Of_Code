@@ -1,0 +1,1285 @@
+{
+  "source": "https://maitysoumik.github.io/basic-coding-with-c/",
+  "questions": {
+    "1": [
+      {
+        "input": "3 4",
+        "output": "Sum = 7"
+      },
+      {
+        "input": "-1 20",
+        "output": "Sum = 19"
+      }
+    ],
+    "2": [
+      {
+        "input": "10 2",
+        "output": "Sum=12, Diff=8, Product=20, Quotient=5"
+      },
+      {
+        "input": "7 3",
+        "output": "Sum=10, Diff=4, Product=21, Quotient=2"
+      }
+    ],
+    "3": [
+      {
+        "input": "5 10",
+        "output": "Area=50, Perimeter=30"
+      },
+      {
+        "input": "3 7",
+        "output": "Area=21, Perimeter=20"
+      }
+    ],
+    "4": [
+      {
+        "input": "7",
+        "output": "Area=153.94, Circumference=43.96"
+      },
+      {
+        "input": "3",
+        "output": "Area=28.27, Circumference=18.85"
+      }
+    ],
+    "5": [
+      {
+        "input": "0",
+        "output": "Fahrenheit=32"
+      },
+      {
+        "input": "100",
+        "output": "Fahrenheit=212"
+      }
+    ],
+    "6": [
+      {
+        "input": "3 5",
+        "output": "After swap: 5 3"
+      },
+      {
+        "input": "-1 1",
+        "output": "After swap: 1 -1"
+      }
+    ],
+    "7": [
+      {
+        "input": "10 20",
+        "output": "After swap: 20 10"
+      },
+      {
+        "input": "7 14",
+        "output": "After swap: 14 7"
+      }
+    ],
+    "8": [
+      {
+        "input": "5",
+        "output": "Sum=15"
+      },
+      {
+        "input": "10",
+        "output": "Sum=55"
+      }
+    ],
+    "9": [
+      {
+        "input": "1000 5 2",
+        "output": "Simple Interest=100, Compound Interest=102.5"
+      },
+      {
+        "input": "5000 7 3",
+        "output": "Simple Interest=1050, Compound Interest=1125.76"
+      }
+    ],
+    "10": [
+      {
+        "input": "3661",
+        "output": "1:1:1"
+      },
+      {
+        "input": "7322",
+        "output": "2:2:2"
+      }
+    ],
+    "11": [
+      {
+        "input": "7",
+        "output": "7 is odd"
+      },
+      {
+        "input": "12",
+        "output": "12 is even"
+      }
+    ],
+    "12": [
+      {
+        "input": "-5",
+        "output": "Negative"
+      },
+      {
+        "input": "0",
+        "output": "Zero"
+      },
+      {
+        "input": "10",
+        "output": "Positive"
+      }
+    ],
+    "13": [
+      {
+        "input": "2020",
+        "output": "Leap year"
+      },
+      {
+        "input": "1900",
+        "output": "Not a leap year"
+      },
+      {
+        "input": "2000",
+        "output": "Leap year"
+      }
+    ],
+    "14": [
+      {
+        "input": "a",
+        "output": "Vowel"
+      },
+      {
+        "input": "b",
+        "output": "Consonant"
+      }
+    ],
+    "15": [
+      {
+        "input": "A",
+        "output": "Uppercase alphabet"
+      },
+      {
+        "input": "a",
+        "output": "Lowercase alphabet"
+      },
+      {
+        "input": "3",
+        "output": "Digit"
+      },
+      {
+        "input": "#",
+        "output": "Special character"
+      }
+    ],
+    "16": [
+      {
+        "input": "3 7 5",
+        "output": "Largest is 7"
+      },
+      {
+        "input": "-1 -5 0",
+        "output": "Largest is 0"
+      }
+    ],
+    "17": [
+      {
+        "input": "1 -3 2",
+        "output": "Roots are real and different: 2, 1"
+      },
+      {
+        "input": "1 -2 1",
+        "output": "Roots are real and same: 1"
+      },
+      {
+        "input": "1 2 5",
+        "output": "Roots are complex"
+      }
+    ],
+    "18": [
+      {
+        "input": "95",
+        "output": "Grade A"
+      },
+      {
+        "input": "82",
+        "output": "Grade B"
+      },
+      {
+        "input": "68",
+        "output": "Grade D"
+      },
+      {
+        "input": "50",
+        "output": "Grade F"
+      }
+    ],
+    "19": [
+      {
+        "input": "3 3 3",
+        "output": "Equilateral"
+      },
+      {
+        "input": "3 3 4",
+        "output": "Isosceles"
+      },
+      {
+        "input": "2 3 4",
+        "output": "Scalene"
+      }
+    ],
+    "20": [
+      {
+        "input": "1",
+        "output": "Monday"
+      },
+      {
+        "input": "5",
+        "output": "Friday"
+      }
+    ],
+    "21": [
+      {
+        "input": "2",
+        "output": "February, 28 days"
+      },
+      {
+        "input": "12",
+        "output": "December, 31 days"
+      }
+    ],
+    "22": [
+      {
+        "input": "1000 1200",
+        "output": "Profit 20%"
+      },
+      {
+        "input": "1000 800",
+        "output": "Loss 20%"
+      },
+      {
+        "input": "1000 1000",
+        "output": "No Profit No Loss"
+      }
+    ],
+    "23": [
+      {
+        "input": "4",
+        "output": "Fine ₹8"
+      },
+      {
+        "input": "8",
+        "output": "Fine ₹22"
+      },
+      {
+        "input": "15",
+        "output": "Fine ₹60"
+      },
+      {
+        "input": "31",
+        "output": "Membership Cancelled"
+      }
+    ],
+    "24": [
+      {
+        "input": "50",
+        "output": "Bill: ₹250"
+      },
+      {
+        "input": "150",
+        "output": "Bill: ₹850"
+      },
+      {
+        "input": "250",
+        "output": "Bill: ₹1700"
+      }
+    ],
+    "25": [
+      {
+        "input": "4 2 +",
+        "output": "6"
+      },
+      {
+        "input": "10 3 %",
+        "output": "1"
+      },
+      {
+        "input": "15 5 /",
+        "output": "3"
+      }
+    ],
+    "26": [
+      {
+        "input": "5",
+        "output": "1 2 3 4 5"
+      },
+      {
+        "input": "3",
+        "output": "1 2 3"
+      }
+    ],
+    "27": [
+      {
+        "input": "3",
+        "output": "9"
+      },
+      {
+        "input": "5",
+        "output": "25"
+      }
+    ],
+    "28": [
+      {
+        "input": "4",
+        "output": "8 (2 * 4)"
+      },
+      {
+        "input": "6",
+        "output": "48 (2 * 4 * 6)"
+      }
+    ],
+    "29": [
+      {
+        "input": "5",
+        "output": "120"
+      },
+      {
+        "input": "3",
+        "output": "6"
+      }
+    ],
+    "30": [
+      {
+        "input": "1234",
+        "output": "4321"
+      },
+      {
+        "input": "100",
+        "output": "1"
+      }
+    ],
+    "31": [
+      {
+        "input": "10",
+        "output": "1010"
+      },
+      {
+        "input": "7",
+        "output": "111"
+      }
+    ],
+    "32": [
+      {
+        "input": "121",
+        "output": "Palindrome"
+      },
+      {
+        "input": "123",
+        "output": "Not palindrome"
+      }
+    ],
+    "33": [
+      {
+        "input": "153",
+        "output": "Armstrong"
+      },
+      {
+        "input": "123",
+        "output": "Not Armstrong"
+      }
+    ],
+    "34": [
+      {
+        "input": "7",
+        "output": "Prime"
+      },
+      {
+        "input": "10",
+        "output": "Not prime"
+      }
+    ],
+    "35": [
+      {
+        "input": "6",
+        "output": "1 2 3 6"
+      },
+      {
+        "input": "10",
+        "output": "1 2 5 10"
+      }
+    ],
+    "36": [
+      {
+        "input": "12 18",
+        "output": "6"
+      },
+      {
+        "input": "7 9",
+        "output": "1"
+      }
+    ],
+    "37": [
+      {
+        "input": "4 5",
+        "output": "20"
+      },
+      {
+        "input": "7 3",
+        "output": "21"
+      }
+    ],
+    "38": [
+      {
+        "input": "123",
+        "output": "6"
+      },
+      {
+        "input": "999",
+        "output": "27"
+      }
+    ],
+    "39": [
+      {
+        "input": "12345",
+        "output": "15 (1*3*5)"
+      },
+      {
+        "input": "2468",
+        "output": "1 (no odd digits, assume 1)"
+      }
+    ],
+    "40": [
+      {
+        "input": "1010",
+        "output": "0101"
+      },
+      {
+        "input": "1111",
+        "output": "0000"
+      }
+    ],
+    "41": [
+      {
+        "input": "1234",
+        "output": "4231"
+      },
+      {
+        "input": "1001",
+        "output": "1001"
+      }
+    ],
+    "42": [
+      {
+        "input": "6",
+        "output": "Perfect number"
+      },
+      {
+        "input": "10",
+        "output": "Not perfect number"
+      }
+    ],
+    "43": [
+      {
+        "input": "145",
+        "output": "Strong number"
+      },
+      {
+        "input": "123",
+        "output": "Not strong number"
+      }
+    ],
+    "44": [
+      {
+        "input": "3",
+        "output": "Approximate sum: 3.3"
+      },
+      {
+        "input": "5",
+        "output": "Approximate sum: 4.4"
+      }
+    ],
+    "45": [
+      {
+        "input": "3",
+        "output": "Approximate sum: 1.56"
+      },
+      {
+        "input": "5",
+        "output": "Approximate sum: 2.22"
+      }
+    ],
+    "46": [
+      {
+        "input": "",
+        "output": "*****\n*****\n*****\n*****\n*****"
+      }
+    ],
+    "47": [
+      {
+        "input": "",
+        "output": "*\n**\n***\n****\n*****"
+      }
+    ],
+    "48": [
+      {
+        "input": "",
+        "output": "1\n12\n123\n1234\n12345"
+      }
+    ],
+    "49": [
+      {
+        "input": "",
+        "output": "5\n45\n345\n2345\n12345"
+      }
+    ],
+    "50": [
+      {
+        "input": "",
+        "output": "*****\n ****\n  ***\n   **\n    *"
+      },
+      {
+        "input": "",
+        "output": "Note: Spaces indicate indentation."
+      }
+    ],
+    "51": [
+      {
+        "input": "",
+        "output": "    5\n   45\n  345\n 2345\n12345"
+      }
+    ],
+    "52": [
+      {
+        "input": "",
+        "output": "Pattern with stars spaced irregularly as shown."
+      }
+    ],
+    "53": [
+      {
+        "input": "",
+        "output": "*\n***\n*****\n*******\n*********\n*******\n*****\n***\n*"
+      }
+    ],
+    "54": [
+      {
+        "input": "",
+        "output": "Pattern with layers of stars as shown."
+      }
+    ],
+    "55": [
+      {
+        "input": "10",
+        "output": "2 3 5 7"
+      },
+      {
+        "input": "20",
+        "output": "2 3 5 7 11 13 17 19"
+      }
+    ],
+    "56": [
+      {
+        "input": "3\n10 20 30",
+        "output": "10 20 30"
+      },
+      {
+        "input": "5\n1 2 3 4 5",
+        "output": "1 2 3 4 5"
+      }
+    ],
+    "57": [
+      {
+        "input": "4\n2 4 6 8",
+        "output": "20"
+      },
+      {
+        "input": "3\n1 1 1",
+        "output": "3"
+      }
+    ],
+    "58": [
+      {
+        "input": "5\n2 9 1 4 7",
+        "output": "Max=9, Min=1"
+      },
+      {
+        "input": "3\n10 10 10",
+        "output": "Max=10, Min=10"
+      }
+    ],
+    "59": [
+      {
+        "input": "6\n1 2 3 4 5 6",
+        "output": "Even=3, Odd=3"
+      },
+      {
+        "input": "4\n2 4 6 8",
+        "output": "Even=4, Odd=0"
+      }
+    ],
+    "60": [
+      {
+        "input": "5\n-1 0 1 2 -2",
+        "output": "Positive=2, Negative=2, Zero=1"
+      }
+    ],
+    "61": [
+      {
+        "input": "5\n1 2 3 4 5\n3",
+        "output": "Found at index 2"
+      },
+      {
+        "input": "4\n10 20 30 40\n25",
+        "output": "-1"
+      }
+    ],
+    "62": [
+      {
+        "input": "4\n1 2 3 4",
+        "output": "4 3 2 1"
+      }
+    ],
+    "63": [
+      {
+        "input": "3\n1 2 3\n2\n4 5",
+        "output": "1 2 3 4 5"
+      }
+    ],
+    "64": [
+      {
+        "input": "112233",
+        "output": "1"
+      },
+      {
+        "input": "887799",
+        "output": "7"
+      }
+    ],
+    "65": [
+      {
+        "input": "5\n1 3 5 7 9\n7",
+        "output": "Found at index 3"
+      },
+      {
+        "input": "5\n1 3 5 7 9\n6",
+        "output": "-1"
+      }
+    ],
+    "66": [
+      {
+        "input": "5\n1 2 4 5 6\n3",
+        "output": "1 2 3 4 5 6"
+      }
+    ],
+    "67": [
+      {
+        "input": "4\n10 20 30 40\n2 15",
+        "output": "10 20 15 30 40"
+      }
+    ],
+    "68": [
+      {
+        "input": "5\n1 2 3 4 5\n2",
+        "output": "1 2 4 5"
+      }
+    ],
+    "69": [
+      {
+        "input": "5\n10 20 30 40 50",
+        "output": "40"
+      }
+    ],
+    "70": [
+      {
+        "input": "5\n1 2 3 4 5\n2",
+        "output": "4 5 1 2 3"
+      }
+    ],
+    "71": [
+      {
+        "input": "2 2\n1 2\n3 4",
+        "output": "1 2\n3 4"
+      }
+    ],
+    "72": [
+      {
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "21"
+      }
+    ],
+    "73": [
+      {
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "6 15"
+      }
+    ],
+    "74": [
+      {
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "1 4\n2 5\n3 6"
+      }
+    ],
+    "75": [
+      {
+        "input": "2 2\n1 2\n3 4\n2 2\n5 6\n7 8",
+        "output": "6 8\n10 12"
+      }
+    ],
+    "76": [
+      {
+        "input": "2 2\n1 2\n2 1",
+        "output": "True"
+      },
+      {
+        "input": "2 2\n1 0\n2 1",
+        "output": "False"
+      }
+    ],
+    "77": [
+      {
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 1",
+        "output": "False"
+      },
+      {
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+        "output": "True"
+      }
+    ],
+    "78": [
+      {
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+        "output": "15"
+      }
+    ],
+    "79": [
+      {
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+        "output": "1 2 4 7 5 3 6 8 9"
+      }
+    ],
+    "80": [
+      {
+        "input": "2 3\n1 2 3\n4 5 6\n3 2\n7 8\n9 10\n11 12",
+        "output": "58 64\n139 154"
+      }
+    ],
+    "81": [
+      {
+        "input": "Hello",
+        "output": "5"
+      },
+      {
+        "input": " ",
+        "output": "1"
+      }
+    ],
+    "82": [
+      {
+        "input": "Hi",
+        "output": "H\ni"
+      }
+    ],
+    "83": [
+      {
+        "input": "hello",
+        "output": "Vowels=2, Consonants=3"
+      }
+    ],
+    "84": [
+      {
+        "input": "hello",
+        "output": "HELLO"
+      }
+    ],
+    "85": [
+      {
+        "input": "abcd",
+        "output": "dcba"
+      }
+    ],
+    "86": [
+      {
+        "input": "madam",
+        "output": "Palindrome"
+      },
+      {
+        "input": "hello",
+        "output": "Not palindrome"
+      }
+    ],
+    "87": [
+      {
+        "input": "a b1&2",
+        "output": "Spaces=1, Digits=2, Special=1"
+      }
+    ],
+    "88": [
+      {
+        "input": "hello world",
+        "output": "hello-world"
+      }
+    ],
+    "89": [
+      {
+        "input": "programming\ng",
+        "output": "2"
+      }
+    ],
+    "90": [
+      {
+        "input": "Hello",
+        "output": "hELLO"
+      }
+    ],
+    "91": [
+      {
+        "input": "education",
+        "output": "dctn"
+      }
+    ],
+    "92": [
+      {
+        "input": "stress",
+        "output": "s"
+      }
+    ],
+    "93": [
+      {
+        "input": "listen\nsilent",
+        "output": "Anagrams"
+      },
+      {
+        "input": "hello\nworld",
+        "output": "Not anagrams"
+      }
+    ],
+    "94": [
+      {
+        "input": "I love programming",
+        "output": "programming"
+      }
+    ],
+    "95": [
+      {
+        "input": "abcde\ndeabc",
+        "output": "Rotation"
+      },
+      {
+        "input": "abc\nacb",
+        "output": "Not rotation"
+      }
+    ],
+    "96": [
+      {
+        "input": "I love coding",
+        "output": "I evol gnidoc"
+      }
+    ],
+    "97": [
+      {
+        "input": "John Doe",
+        "output": "J.D."
+      }
+    ],
+    "98": [
+      {
+        "input": "John David Doe",
+        "output": "J.D. Doe"
+      }
+    ],
+    "99": [
+      {
+        "input": "15/04/2025",
+        "output": "15-Apr-2025"
+      }
+    ],
+    "100": [
+      {
+        "input": "abc",
+        "output": "a,ab,abc,b,bc,c"
+      }
+    ],
+    "101": [
+      {
+        "input": "6\n5 7 7 8 8 10\n8\n",
+        "output": "3,4"
+      },
+      {
+        "input": "6\n5 7 7 8 8 10\n6\n",
+        "output": "-1,-1"
+      },
+      {
+        "input": "6\n5 7 7 8 8 10\n10\n",
+        "output": "5,5"
+      }
+    ],
+    "102": [
+      {
+        "input": "7\n1 2 8 10 11 12 19\n5\n",
+        "output": "2"
+      },
+      {
+        "input": "7\n1 2 8 10 11 12 19\n20\n",
+        "output": "-1"
+      },
+      {
+        "input": "8\n1 1 2 8 10 11 12 19\n0\n",
+        "output": "0"
+      },
+      {
+        "input": "8\n1 1 2 8 10 11 12 19\n2\n",
+        "output": "2"
+      }
+    ],
+    "103": [
+      {
+        "input": "6\n1 7 3 6 5 6\n",
+        "output": "3"
+      },
+      {
+        "input": "3\n1 2 3\n",
+        "output": "-1"
+      },
+      {
+        "input": "3\n2 1 -1\n",
+        "output": "0"
+      }
+    ],
+    "104": [
+      {
+        "input": "8\n",
+        "output": "6"
+      },
+      {
+        "input": "1\n",
+        "output": "1"
+      },
+      {
+        "input": "4\n",
+        "output": "-1"
+      }
+    ],
+    "105": [
+      {
+        "input": "3\n3 2 3\n",
+        "output": "3"
+      },
+      {
+        "input": "7\n2 2 1 1 1 2 2\n",
+        "output": "2"
+      },
+      {
+        "input": "8\n2 2 1 1 1 2 2 3\n",
+        "output": "-1"
+      }
+    ],
+    "106": [
+      {
+        "input": "4\n1 3 2 4\n",
+        "output": "3, 4, 4, -1"
+      },
+      {
+        "input": "5\n6 8 0 1 3\n",
+        "output": "8, -1, 1, 3, -1"
+      },
+      {
+        "input": "4\n1 2 3 5\n",
+        "output": "2, 3, 5, -1"
+      },
+      {
+        "input": "4\n5 4 3 1\n",
+        "output": "-1, -1, -1, -1"
+      }
+    ],
+    "107": [
+      {
+        "input": "4\n1 3 2 4\n",
+        "output": "-1, -1, 3, -1"
+      },
+      {
+        "input": "5\n6 8 0 1 3\n",
+        "output": "-1, -1, 8, 8, 8"
+      },
+      {
+        "input": "4\n1 2 3 5\n",
+        "output": "-1, -1, -1, -1"
+      },
+      {
+        "input": "4\n5 4 3 1\n",
+        "output": "-1, 5, 4, 3"
+      }
+    ],
+    "108": [
+      {
+        "input": "4\n1 2 3 4\n",
+        "output": "[24,12,8,6]"
+      },
+      {
+        "input": "5\n-1 1 0 -3 3\n",
+        "output": "[0,0,9,0,0]"
+      }
+    ],
+    "109": [
+      {
+        "input": "4 2\n100 200 300 400\n",
+        "output": "700"
+      },
+      {
+        "input": "9 4\n1 4 2 10 23 3 1 0 20\n",
+        "output": "39"
+      },
+      {
+        "input": "4 1\n100 200 300 400\n",
+        "output": "400"
+      }
+    ],
+    "110": [
+      {
+        "input": "9 3\n1 2 3 1 4 5 2 3 6\n",
+        "output": "3 3 4 5 5 5 6"
+      },
+      {
+        "input": "5 1\n5 1 3 4 2\n",
+        "output": "5 1 3 4 2"
+      }
+    ],
+    "111": [
+      {
+        "input": "5 2\n-8 2 3 -6 10\n",
+        "output": "-8 0 -6 -6"
+      },
+      {
+        "input": "8 3\n12 -1 -7 8 -15 30 16 28\n",
+        "output": "-1 -1 -7 -15 -15 0"
+      },
+      {
+        "input": "4 3\n12 1 3 5\n",
+        "output": "0 0"
+      }
+    ],
+    "112": [
+      {
+        "input": "7\n2 3 -8 7 -1 2 3\n",
+        "output": "11"
+      },
+      {
+        "input": "2\n-2 -4\n",
+        "output": "-2"
+      },
+      {
+        "input": "5\n5 4 1 7 8\n",
+        "output": "25"
+      }
+    ],
+    "113": [
+      {
+        "input": "10 4\n10 5 4 3 48 6 2 33 53 10\n",
+        "output": "5"
+      },
+      {
+        "input": "6 3\n7 10 4 3 20 15\n",
+        "output": "7"
+      }
+    ],
+    "114": [
+      {
+        "input": "abcabcbb\n",
+        "output": "3"
+      },
+      {
+        "input": "bbbbb\n",
+        "output": "1"
+      },
+      {
+        "input": "pwwkew\n",
+        "output": "3"
+      }
+    ],
+    "115": [
+      {
+        "input": "anagram\nnagaram\n",
+        "output": "Anagram"
+      },
+      {
+        "input": "rat\ncar\n",
+        "output": "Not Anagram"
+      }
+    ],
+    "116": [
+      {
+        "input": "4\n2 7 11 15\n9\n",
+        "output": "0 1"
+      },
+      {
+        "input": "3\n3 2 4\n6\n",
+        "output": "1 2"
+      },
+      {
+        "input": "2\n3 3\n6\n",
+        "output": "0 1"
+      }
+    ],
+    "117": [
+      {
+        "input": "4 3\n2 7 11 15\n4 8 10\n",
+        "output": "2 4 7 8 10 11 15"
+      },
+      {
+        "input": "3 3\n1 2 7\n9 10 17\n",
+        "output": "1 2 7 9 10 17"
+      },
+      {
+        "input": "3 3\n-10 -2 7\n-3 -1 7\n",
+        "output": "-10 -3 -2 -1 7 7"
+      }
+    ],
+    "118": [
+      {
+        "input": "4\n0 3 2 4\n",
+        "output": "1"
+      },
+      {
+        "input": "3\n1 2 3\n",
+        "output": "0"
+      },
+      {
+        "input": "5\n0 4 3 1 5\n",
+        "output": "2"
+      }
+    ],
+    "119": [
+      {
+        "input": "4\n1 3 3 4\n",
+        "output": "3"
+      },
+      {
+        "input": "3\n1 2 2\n",
+        "output": "2"
+      },
+      {
+        "input": "5\n0 4 1 1 5\n",
+        "output": "1"
+      }
+    ],
+    "120": [
+      {
+        "input": "I am trying to build logic.\n",
+        "output": "I Am Trying To Build Logic"
+      },
+      {
+        "input": "The classes are supposed to start early.\n",
+        "output": "The Classes Are Supposed To Start Early."
+      },
+      {
+        "input": "We are going to look at 26 different test cases.\n",
+        "output": "We Are Going To Look At 26 Different Test Cases."
+      }
+    ],
+    "121": [
+      {
+        "input": "Rahul 23\n",
+        "output": "File created successfully! Data written to info.txt",
+        "expected_files": {
+          "info.txt": "Name: Rahul\nAge: 23\n"
+        }
+      }
+    ],
+    "122": [
+      {
+        "input": "",
+        "output": "Name: Rahul\nAge: 23\n",
+        "files": {
+          "info.txt": "Name: Rahul\nAge: 23\n"
+        }
+      }
+    ],
+    "123": [
+      {
+        "input": "",
+        "output": "Characters: 31\nWords: 5\nLines: 2",
+        "files": {
+          "sample.txt": "Hello world\nThis is C programming"
+        }
+      }
+    ],
+    "124": [
+      {
+        "input": "source.txt destination.txt\n",
+        "output": "File copied successfully to destination.txt",
+        "files": {
+          "source.txt": "Learning C File Handling"
+        },
+        "expected_files": {
+          "destination.txt": "Learning C File Handling"
+        }
+      }
+    ],
+    "125": [
+      {
+        "input": "This is appended text.\n",
+        "output": "File updated successfully with appended text.",
+        "files": {
+          "data.txt": "Hello world\n"
+        },
+        "expected_files": {
+          "data.txt": "Hello world\nThis is appended text.\n"
+        }
+      }
+    ],
+    "126": [
+      {
+        "input": "sample.txt\n",
+        "output": "File opened successfully.\nName: Rahul\nAge: 23\n",
+        "files": {
+          "sample.txt": "Name: Rahul\nAge: 23\n"
+        }
+      },
+      {
+        "input": "nofile.txt\n",
+        "output": "Error: File does not exist!"
+      }
+    ],
+    "127": [
+      {
+        "input": "",
+        "output": "Output File (output.txt): HELLO WORLD\nC PROGRAMMING",
+        "files": {
+          "input.txt": "Hello World\nC programming"
+        },
+        "expected_files": {
+          "output.txt": "HELLO WORLD\nC PROGRAMMING"
+        }
+      }
+    ],
+    "128": [
+      {
+        "input": "",
+        "output": "Vowels: 8\nConsonants: 10",
+        "files": {
+          "text.txt": "Welcome to C language"
+        }
+      }
+    ],
+    "129": [
+      {
+        "input": "",
+        "output": "Sum = 150\nAverage = 30.00",
+        "files": {
+          "numbers.txt": "10 20 30 40 50"
+        }
+      }
+    ],
+    "130": [
+      {
+        "input": "2\nAsha 101 85\nRavi 102 92\n",
+        "output": "Name: Asha | Roll: 101 | Marks: 85\nName: Ravi | Roll: 102 | Marks: 92\n"
+      }
+    ],
+    "131": [
+      {
+        "input": "",
+        "output": "SUNDAY = 0\nMONDAY = 1\nTUESDAY = 2\nWEDNESDAY = 3\nTHURSDAY = 4\nFRIDAY = 5\nSATURDAY = 6"
+      }
+    ],
+    "132": [
+      {
+        "input": "GREEN\n",
+        "output": "Go"
+      }
+    ]
+  }
+}
