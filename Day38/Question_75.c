@@ -1,0 +1,3 @@
+/* Problem summary: Add two matrices of equal dimensions. */
+#include <stdio.h>
+int main(void){int r,c,r2,c2,a[100][100],x;if(scanf("%d%d",&r,&c)!=2||r<1||c<1||r>100||c>100)return 1;for(int i=0;i<r;i++)for(int j=0;j<c;j++)if(scanf("%d",&a[i][j])!=1)return 1;if(scanf("%d%d",&r2,&c2)!=2||r2!=r||c2!=c)return 1;for(int i=0;i<r;i++)for(int j=0;j<c;j++){if(scanf("%d",&x)!=1)return 1;a[i][j]+=x;}for(int i=0;i<r;i++){for(int j=0;j<c;j++)printf("%s%d",j?" ":"",a[i][j]);putchar('\n');}return 0;}
