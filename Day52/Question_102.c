@@ -1,0 +1,3 @@
+/* Problem summary: Challenge task 102; see the source site for the statement. */
+#include <stdio.h>
+int main(void){int n,a[5000],x;if(scanf("%d",&n)!=1||n<0||n>5000)return 1;for(int i=0;i<n;i++)if(scanf("%d",&a[i])!=1)return 1;if(scanf("%d",&x)!=1)return 1;int l=0,r=n;while(l<r){int m=l+(r-l)/2;if(a[m]<x)l=m+1;else r=m;}printf("%d\n",l<n?l:-1);return 0;}
