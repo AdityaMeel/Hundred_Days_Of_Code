@@ -118,6 +118,8 @@ gcc -std=c11 -Wall -Wextra -pedantic Day01/Question_1.c -o question.exe
 .\question.exe
 ```
 
+- **Git commits:** 82 challenge commits, one for each day.
+
 ## Simulated Git timeline
 
 The 82 commit dates from **August 14, 2026 through November 3, 2026 (Asia/Kolkata)** are an explicitly simulated hackathon timeline requested for this project. They are not the dates the solutions were written. Author and committer dates are set to the disclosed simulation dates; GitHub may cache or aggregate contribution activity, and no contribution-graph result is guaranteed.

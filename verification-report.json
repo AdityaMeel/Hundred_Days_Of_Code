@@ -1,0 +1,2903 @@
+{
+  "compiler": "C:\\msys64\\mingw64\\bin\\gcc.EXE",
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-pedantic"
+  ],
+  "source_files_found": 132,
+  "source_files_expected": 132,
+  "compiled": 132,
+  "compile_failures": 0,
+  "sample_cases_run": 245,
+  "sample_passes": 235,
+  "sample_skipped": 3,
+  "sample_failures": 7,
+  "files": [
+    {
+      "file": "Day01\\Question_1.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Sum = 7",
+          "actual": "Sum = 7",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Sum = 19",
+          "actual": "Sum = 19",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day01\\Question_2.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Sum=12, Diff=8, Product=20, Quotient=5",
+          "actual": "Sum=12, Diff=8, Product=20, Quotient=5",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Sum=10, Diff=4, Product=21, Quotient=2",
+          "actual": "Sum=10, Diff=4, Product=21, Quotient=2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day02\\Question_3.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Area=50, Perimeter=30",
+          "actual": "Area=50, Perimeter=30",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Area=21, Perimeter=20",
+          "actual": "Area=21, Perimeter=20",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day02\\Question_4.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "failed",
+          "expected": "Area=153.94, Circumference=43.96",
+          "actual": "Area=153.94, Circumference=43.98",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Area=28.27, Circumference=18.85",
+          "actual": "Area=28.27, Circumference=18.85",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day03\\Question_5.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Fahrenheit=32",
+          "actual": "Fahrenheit=32",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Fahrenheit=212",
+          "actual": "Fahrenheit=212",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day03\\Question_6.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "After swap: 5 3",
+          "actual": "After swap: 5 3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "After swap: 1 -1",
+          "actual": "After swap: 1 -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day04\\Question_7.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "After swap: 20 10",
+          "actual": "After swap: 20 10",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "After swap: 14 7",
+          "actual": "After swap: 14 7",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day04\\Question_8.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Sum=15",
+          "actual": "Sum=15",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Sum=55",
+          "actual": "Sum=55",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day05\\Question_10.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1:1:1",
+          "actual": "1:1:1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "2:2:2",
+          "actual": "2:2:2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day05\\Question_9.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Simple Interest=100, Compound Interest=102.5",
+          "actual": "Simple Interest=100, Compound Interest=102.5",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "failed",
+          "expected": "Simple Interest=1050, Compound Interest=1125.76",
+          "actual": "Simple Interest=1050, Compound Interest=1125.22",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day06\\Question_11.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "7 is odd",
+          "actual": "7 is odd",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "12 is even",
+          "actual": "12 is even",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day06\\Question_12.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Negative",
+          "actual": "Negative",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Zero",
+          "actual": "Zero",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Positive",
+          "actual": "Positive",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day07\\Question_13.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Leap year",
+          "actual": "Leap year",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not a leap year",
+          "actual": "Not a leap year",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Leap year",
+          "actual": "Leap year",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day07\\Question_14.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Vowel",
+          "actual": "Vowel",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Consonant",
+          "actual": "Consonant",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day08\\Question_15.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Uppercase alphabet",
+          "actual": "Uppercase alphabet",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Lowercase alphabet",
+          "actual": "Lowercase alphabet",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Digit",
+          "actual": "Digit",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 4,
+          "status": "passed",
+          "expected": "Special character",
+          "actual": "Special character",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day08\\Question_16.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Largest is 7",
+          "actual": "Largest is 7",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Largest is 0",
+          "actual": "Largest is 0",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day09\\Question_17.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Roots are real and different: 2, 1",
+          "actual": "Roots are real and different: 2, 1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Roots are real and same: 1",
+          "actual": "Roots are real and same: 1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Roots are complex",
+          "actual": "Roots are complex",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day09\\Question_18.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Grade A",
+          "actual": "Grade A",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Grade B",
+          "actual": "Grade B",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Grade D",
+          "actual": "Grade D",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 4,
+          "status": "passed",
+          "expected": "Grade F",
+          "actual": "Grade F",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day10\\Question_19.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Equilateral",
+          "actual": "Equilateral",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Isosceles",
+          "actual": "Isosceles",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Scalene",
+          "actual": "Scalene",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day10\\Question_20.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Monday",
+          "actual": "Monday",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Friday",
+          "actual": "Friday",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day11\\Question_21.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "February, 28 days",
+          "actual": "February, 28 days",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "December, 31 days",
+          "actual": "December, 31 days",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day11\\Question_22.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Profit 20%",
+          "actual": "Profit 20%",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Loss 20%",
+          "actual": "Loss 20%",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "No Profit No Loss",
+          "actual": "No Profit No Loss",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day12\\Question_23.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Fine ₹8",
+          "actual": "Fine ₹8",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Fine ₹22",
+          "actual": "Fine ₹22",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Fine ₹60",
+          "actual": "Fine ₹60",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 4,
+          "status": "passed",
+          "expected": "Membership Cancelled",
+          "actual": "Membership Cancelled",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day12\\Question_24.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Bill: ₹250",
+          "actual": "Bill: ₹250",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Bill: ₹850",
+          "actual": "Bill: ₹850",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "Bill: ₹1700",
+          "actual": "Bill: ₹1700",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day13\\Question_25.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "6",
+          "actual": "6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day13\\Question_26.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2 3 4 5",
+          "actual": "1 2 3 4 5",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1 2 3",
+          "actual": "1 2 3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day14\\Question_27.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "9",
+          "actual": "9",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "25",
+          "actual": "25",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day14\\Question_28.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "8 (2 * 4)",
+          "actual": "8 (2 * 4)",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "48 (2 * 4 * 6)",
+          "actual": "48 (2 * 4 * 6)",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day15\\Question_29.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "120",
+          "actual": "120",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "6",
+          "actual": "6",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day15\\Question_30.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "4321",
+          "actual": "4321",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day16\\Question_31.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1010",
+          "actual": "1010",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "111",
+          "actual": "111",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day16\\Question_32.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Palindrome",
+          "actual": "Palindrome",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not palindrome",
+          "actual": "Not palindrome",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day17\\Question_33.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Armstrong",
+          "actual": "Armstrong",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not Armstrong",
+          "actual": "Not Armstrong",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day17\\Question_34.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Prime",
+          "actual": "Prime",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not prime",
+          "actual": "Not prime",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day18\\Question_35.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2 3 6",
+          "actual": "1 2 3 6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1 2 5 10",
+          "actual": "1 2 5 10",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day18\\Question_36.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "6",
+          "actual": "6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day19\\Question_37.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "20",
+          "actual": "20",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "21",
+          "actual": "21",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day19\\Question_38.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "6",
+          "actual": "6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "27",
+          "actual": "27",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day20\\Question_39.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "15 (1*3*5)",
+          "actual": "15 (1*3*5)",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1 (no odd digits, assume 1)",
+          "actual": "1 (no odd digits, assume 1)",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day20\\Question_40.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "0101",
+          "actual": "0101",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "0000",
+          "actual": "0000",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day21\\Question_41.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "4231",
+          "actual": "4231",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1001",
+          "actual": "1001",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day21\\Question_42.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Perfect number",
+          "actual": "Perfect number",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not perfect number",
+          "actual": "Not perfect number",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day22\\Question_43.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Strong number",
+          "actual": "Strong number",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not strong number",
+          "actual": "Not strong number",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day22\\Question_44.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "failed",
+          "expected": "Approximate sum: 3.3",
+          "actual": "Approximate sum: 2.6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Approximate sum: 4.4",
+          "actual": "Approximate sum: 4.4",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day23\\Question_45.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "failed",
+          "expected": "Approximate sum: 1.56",
+          "actual": "Approximate sum: 1.78",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "failed",
+          "expected": "Approximate sum: 2.22",
+          "actual": "Approximate sum: 2.84",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day23\\Question_46.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "*****\n*****\n*****\n*****\n*****",
+          "actual": "*****\n*****\n*****\n*****\n*****",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day24\\Question_47.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "*\n**\n***\n****\n*****",
+          "actual": "*\n**\n***\n****\n*****",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day24\\Question_48.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1\n12\n123\n1234\n12345",
+          "actual": "1\n12\n123\n1234\n12345",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day25\\Question_49.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "5\n45\n345\n2345\n12345",
+          "actual": "5\n45\n345\n2345\n12345",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day25\\Question_50.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "*****\n ****\n  ***\n   **\n    *",
+          "actual": "*****\n ****\n  ***\n   **\n    *",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "skipped",
+          "reason": "Source provides descriptive note instead of a concrete expected output"
+        }
+      ]
+    },
+    {
+      "file": "Day26\\Question_51.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "    5\n   45\n  345\n 2345\n12345",
+          "actual": "    5\n   45\n  345\n 2345\n12345",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day26\\Question_52.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "skipped",
+          "reason": "Source provides descriptive note instead of a concrete expected output"
+        }
+      ]
+    },
+    {
+      "file": "Day27\\Question_53.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "*\n***\n*****\n*******\n*********\n*******\n*****\n***\n*",
+          "actual": "*\n***\n*****\n*******\n*********\n*******\n*****\n***\n*",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day27\\Question_54.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "skipped",
+          "reason": "Source provides descriptive note instead of a concrete expected output"
+        }
+      ]
+    },
+    {
+      "file": "Day28\\Question_55.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "2 3 5 7",
+          "actual": "2 3 5 7",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "2 3 5 7 11 13 17 19",
+          "actual": "2 3 5 7 11 13 17 19",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day28\\Question_56.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "10 20 30",
+          "actual": "10 20 30",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1 2 3 4 5",
+          "actual": "1 2 3 4 5",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day29\\Question_57.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "20",
+          "actual": "20",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day29\\Question_58.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Max=9, Min=1",
+          "actual": "Max=9, Min=1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Max=10, Min=10",
+          "actual": "Max=10, Min=10",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day30\\Question_59.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Even=3, Odd=3",
+          "actual": "Even=3, Odd=3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Even=4, Odd=0",
+          "actual": "Even=4, Odd=0",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day30\\Question_60.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Positive=2, Negative=2, Zero=1",
+          "actual": "Positive=2, Negative=2, Zero=1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day31\\Question_61.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Found at index 2",
+          "actual": "Found at index 2",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1",
+          "actual": "-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day31\\Question_62.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "4 3 2 1",
+          "actual": "4 3 2 1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day32\\Question_63.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2 3 4 5",
+          "actual": "1 2 3 4 5",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day32\\Question_64.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "7",
+          "actual": "7",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day33\\Question_65.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Found at index 3",
+          "actual": "Found at index 3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1",
+          "actual": "-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day33\\Question_66.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2 3 4 5 6",
+          "actual": "1 2 3 4 5 6",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day34\\Question_67.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "10 20 15 30 40",
+          "actual": "10 20 15 30 40",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day34\\Question_68.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2 4 5",
+          "actual": "1 2 4 5",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day35\\Question_69.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "40",
+          "actual": "40",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day35\\Question_70.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "4 5 1 2 3",
+          "actual": "4 5 1 2 3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day36\\Question_71.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2\n3 4",
+          "actual": "1 2\n3 4",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day36\\Question_72.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "21",
+          "actual": "21",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day37\\Question_73.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "6 15",
+          "actual": "6 15",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day37\\Question_74.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 4\n2 5\n3 6",
+          "actual": "1 4\n2 5\n3 6",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day38\\Question_75.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "6 8\n10 12",
+          "actual": "6 8\n10 12",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day38\\Question_76.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "True",
+          "actual": "True",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "False",
+          "actual": "False",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day39\\Question_77.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "False",
+          "actual": "False",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "True",
+          "actual": "True",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day39\\Question_78.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "15",
+          "actual": "15",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day40\\Question_79.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1 2 4 7 5 3 6 8 9",
+          "actual": "1 2 4 7 5 3 6 8 9",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day40\\Question_80.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "58 64\n139 154",
+          "actual": "58 64\n139 154",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day41\\Question_81.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "5",
+          "actual": "5",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day41\\Question_82.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "H\ni",
+          "actual": "H\ni",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day42\\Question_83.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Vowels=2, Consonants=3",
+          "actual": "Vowels=2, Consonants=3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day42\\Question_84.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "HELLO",
+          "actual": "HELLO",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day43\\Question_85.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "dcba",
+          "actual": "dcba",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day43\\Question_86.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Palindrome",
+          "actual": "Palindrome",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not palindrome",
+          "actual": "Not palindrome",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day44\\Question_87.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Spaces=1, Digits=2, Special=1",
+          "actual": "Spaces=1, Digits=2, Special=1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day44\\Question_88.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "hello-world",
+          "actual": "hello-world",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day45\\Question_89.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "2",
+          "actual": "2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day45\\Question_90.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "hELLO",
+          "actual": "hELLO",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day46\\Question_91.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "dctn",
+          "actual": "dctn",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day46\\Question_92.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "s",
+          "actual": "s",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day47\\Question_93.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Anagrams",
+          "actual": "Anagrams",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not anagrams",
+          "actual": "Not anagrams",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day47\\Question_94.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "programming",
+          "actual": "programming",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day48\\Question_95.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Rotation",
+          "actual": "Rotation",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not rotation",
+          "actual": "Not rotation",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day48\\Question_96.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "I evol gnidoc",
+          "actual": "I evol gnidoc",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day49\\Question_97.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "J.D.",
+          "actual": "J.D.",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day49\\Question_98.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "J.D. Doe",
+          "actual": "J.D. Doe",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day50\\Question_100.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "a,ab,abc,b,bc,c",
+          "actual": "a,ab,abc,b,bc,c",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day50\\Question_99.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "15-Apr-2025",
+          "actual": "15-Apr-2025",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day51\\Question_101.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3,4",
+          "actual": "3,4",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1,-1",
+          "actual": "-1,-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "5,5",
+          "actual": "5,5",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day52\\Question_102.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "2",
+          "actual": "2",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1",
+          "actual": "-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "0",
+          "actual": "0",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 4,
+          "status": "passed",
+          "expected": "2",
+          "actual": "2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day53\\Question_103.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1",
+          "actual": "-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "0",
+          "actual": "0",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day54\\Question_104.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "6",
+          "actual": "6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "-1",
+          "actual": "-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day55\\Question_105.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "2",
+          "actual": "2",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "-1",
+          "actual": "-1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day56\\Question_106.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3, 4, 4, -1",
+          "actual": "3, 4, 4, -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "8, -1, 1, 3, -1",
+          "actual": "8, -1, 1, 3, -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "2, 3, 5, -1",
+          "actual": "2, 3, 5, -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 4,
+          "status": "passed",
+          "expected": "-1, -1, -1, -1",
+          "actual": "-1, -1, -1, -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day57\\Question_107.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "-1, -1, 3, -1",
+          "actual": "-1, -1, 3, -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1, -1, 8, 8, 8",
+          "actual": "-1, -1, 8, 8, 8",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "-1, -1, -1, -1",
+          "actual": "-1, -1, -1, -1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 4,
+          "status": "passed",
+          "expected": "-1, 5, 4, 3",
+          "actual": "-1, 5, 4, 3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day58\\Question_108.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "[24,12,8,6]",
+          "actual": "[24,12,8,6]",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "[0,0,9,0,0]",
+          "actual": "[0,0,9,0,0]",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day59\\Question_109.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "700",
+          "actual": "700",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "39",
+          "actual": "39",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "400",
+          "actual": "400",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day60\\Question_110.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3 3 4 5 5 5 6",
+          "actual": "3 3 4 5 5 5 6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "5 1 3 4 2",
+          "actual": "5 1 3 4 2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day61\\Question_111.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "-8 0 -6 -6",
+          "actual": "-8 0 -6 -6",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-1 -1 -7 -15 -15 0",
+          "actual": "-1 -1 -7 -15 -15 0",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "0 0",
+          "actual": "0 0",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day62\\Question_112.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "11",
+          "actual": "11",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "-2",
+          "actual": "-2",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "25",
+          "actual": "25",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day63\\Question_113.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "5",
+          "actual": "5",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "7",
+          "actual": "7",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day64\\Question_114.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day65\\Question_115.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Anagram",
+          "actual": "Anagram",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Not Anagram",
+          "actual": "Not Anagram",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day66\\Question_116.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "0 1",
+          "actual": "0 1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1 2",
+          "actual": "1 2",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "0 1",
+          "actual": "0 1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day67\\Question_117.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "2 4 7 8 10 11 15",
+          "actual": "2 4 7 8 10 11 15",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "1 2 7 9 10 17",
+          "actual": "1 2 7 9 10 17",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "-10 -3 -2 -1 7 7",
+          "actual": "-10 -3 -2 -1 7 7",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day68\\Question_118.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "0",
+          "actual": "0",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "2",
+          "actual": "2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day69\\Question_119.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "3",
+          "actual": "3",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "2",
+          "actual": "2",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "1",
+          "actual": "1",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day70\\Question_120.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "failed",
+          "expected": "I Am Trying To Build Logic",
+          "actual": "I Am Trying To Build Logic.",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "The Classes Are Supposed To Start Early.",
+          "actual": "The Classes Are Supposed To Start Early.",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 3,
+          "status": "passed",
+          "expected": "We Are Going To Look At 26 Different Test Cases.",
+          "actual": "We Are Going To Look At 26 Different Test Cases.",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day71\\Question_121.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "File created successfully! Data written to info.txt",
+          "actual": "File created successfully! Data written to info.txt",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day72\\Question_122.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Name: Rahul\nAge: 23",
+          "actual": "Name: Rahul\nAge: 23",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day73\\Question_123.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "failed",
+          "expected": "Characters: 31\nWords: 5\nLines: 2",
+          "actual": "Characters: 33\nWords: 6\nLines: 2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day74\\Question_124.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "File copied successfully to destination.txt",
+          "actual": "File copied successfully to destination.txt",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day75\\Question_125.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "File updated successfully with appended text.",
+          "actual": "File updated successfully with appended text.",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day76\\Question_126.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "File opened successfully.\nName: Rahul\nAge: 23",
+          "actual": "File opened successfully.\nName: Rahul\nAge: 23",
+          "returncode": 0,
+          "expected_files_ok": true
+        },
+        {
+          "case": 2,
+          "status": "passed",
+          "expected": "Error: File does not exist!",
+          "actual": "Error: File does not exist!",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day77\\Question_127.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Output File (output.txt): HELLO WORLD\nC PROGRAMMING",
+          "actual": "Output File (output.txt): HELLO WORLD\nC PROGRAMMING",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day78\\Question_128.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Vowels: 8\nConsonants: 10",
+          "actual": "Vowels: 8\nConsonants: 10",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day79\\Question_129.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Sum = 150\nAverage = 30.00",
+          "actual": "Sum = 150\nAverage = 30.00",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day80\\Question_130.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Name: Asha | Roll: 101 | Marks: 85\nName: Ravi | Roll: 102 | Marks: 92",
+          "actual": "Name: Asha | Roll: 101 | Marks: 85\nName: Ravi | Roll: 102 | Marks: 92",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day81\\Question_131.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "SUNDAY = 0\nMONDAY = 1\nTUESDAY = 2\nWEDNESDAY = 3\nTHURSDAY = 4\nFRIDAY = 5\nSATURDAY = 6",
+          "actual": "SUNDAY = 0\nMONDAY = 1\nTUESDAY = 2\nWEDNESDAY = 3\nTHURSDAY = 4\nFRIDAY = 5\nSATURDAY = 6",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day82\\Question_132.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Go",
+          "actual": "Go",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "website": "https://maitysoumik.github.io/basic-coding-with-c/",
+    "repository": "https://github.com/maitysoumik/basic-coding-with-c"
+  },
+  "status": "All 132 source files compile; sample suite has known expected-output discrepancies in the challenge data.",
+  "sample_cases_passed": 235,
+  "sample_cases_failed": 7,
+  "sample_cases_skipped": 3,
+  "interpretation": "Failures retain the published expected outputs. Review the per-case expected and actual values; the mismatch does not establish that the algorithm is wrong where the published sample contradicts the stated calculation."
+}
