@@ -6,13 +6,13 @@
     "-Wextra",
     "-pedantic"
   ],
-  "source_files_found": 132,
-  "source_files_expected": 132,
-  "compiled": 132,
+  "source_files_found": 146,
+  "source_files_expected": 146,
+  "compiled": 146,
   "compile_failures": 0,
-  "sample_cases_run": 245,
-  "sample_passes": 235,
-  "sample_skipped": 3,
+  "sample_cases_run": 259,
+  "sample_passes": 248,
+  "sample_skipped": 4,
   "sample_failures": 7,
   "files": [
     {
@@ -1230,7 +1230,7 @@
         {
           "case": 2,
           "status": "skipped",
-          "reason": "Source provides descriptive note instead of a concrete expected output"
+          "reason": "Published sample is descriptive prose and does not provide concrete records to run"
         }
       ]
     },
@@ -1257,7 +1257,7 @@
         {
           "case": 1,
           "status": "skipped",
-          "reason": "Source provides descriptive note instead of a concrete expected output"
+          "reason": "Published sample is descriptive prose and does not provide concrete records to run"
         }
       ]
     },
@@ -1284,7 +1284,7 @@
         {
           "case": 1,
           "status": "skipped",
-          "reason": "Source provides descriptive note instead of a concrete expected output"
+          "reason": "Published sample is descriptive prose and does not provide concrete records to run"
         }
       ]
     },
@@ -2889,15 +2889,213 @@
           "expected_files_ok": true
         }
       ]
+    },
+    {
+      "file": "Day83\\Question_133.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "28 or 29 days",
+          "actual": "28 or 29 days",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day84\\Question_134.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Operation failed",
+          "actual": "Operation failed",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day85\\Question_135.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "A=10\nB=11\nC=12",
+          "actual": "A=10\nB=11\nC=12",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day86\\Question_136.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "30",
+          "actual": "30",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day87\\Question_137.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Welcome Guest!",
+          "actual": "Welcome Guest!",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day88\\Question_138.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "RED=0\nYELLOW=1\nGREEN=2",
+          "actual": "RED=0\nYELLOW=1\nGREEN=2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day89\\Question_139.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "SUCCESS=0, FAILURE=1, TIMEOUT=2",
+          "actual": "SUCCESS=0, FAILURE=1, TIMEOUT=2",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day90\\Question_140.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Male",
+          "actual": "Male",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day91\\Question_141.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Name: Asha | Roll: 101 | Marks: 90",
+          "actual": "Name: Asha | Roll: 101 | Marks: 90",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day92\\Question_142.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "skipped",
+          "reason": "Published sample is descriptive prose and does not provide concrete records to run"
+        }
+      ]
+    },
+    {
+      "file": "Day93\\Question_143.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Topper: Ravi (Marks: 95)",
+          "actual": "Topper: Ravi (Marks: 95)",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day94\\Question_144.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Name: Neha | Roll: 104 | Marks: 92",
+          "actual": "Name: Neha | Roll: 104 | Marks: 92",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day95\\Question_145.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Top Student: Karan | Roll: 102 | Marks: 96",
+          "actual": "Top Student: Karan | Roll: 102 | Marks: 96",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
+    },
+    {
+      "file": "Day96\\Question_146.c",
+      "compile": "passed",
+      "compiler_output": "",
+      "samples": [
+        {
+          "case": 1,
+          "status": "passed",
+          "expected": "Name: Raj | ID: 11 | Joining Date: 12/05/2020",
+          "actual": "Name: Raj | ID: 11 | Joining Date: 12/05/2020",
+          "returncode": 0,
+          "expected_files_ok": true
+        }
+      ]
     }
-  ],
-  "source": {
-    "website": "https://maitysoumik.github.io/basic-coding-with-c/",
-    "repository": "https://github.com/maitysoumik/basic-coding-with-c"
-  },
-  "status": "All 132 source files compile; sample suite has known expected-output discrepancies in the challenge data.",
-  "sample_cases_passed": 235,
-  "sample_cases_failed": 7,
-  "sample_cases_skipped": 3,
-  "interpretation": "Failures retain the published expected outputs. Review the per-case expected and actual values; the mismatch does not establish that the algorithm is wrong where the published sample contradicts the stated calculation."
+  ]
 }

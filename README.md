@@ -1,20 +1,20 @@
 # 100 Days of Code — C11 solutions
 
-An 82-day collection of independent C11 programs for the UPES 100 Days of Code challenge. The question numbers and day mapping follow the published challenge source. Original question statements and context are available on the [challenge website](https://maitysoumik.github.io/basic-coding-with-c/) and its [source repository](https://github.com/maitysoumik/basic-coding-with-c).
+A 96-day collection of independent C11 programs for the UPES 100 Days of Code challenge. The question numbers and day mapping follow the published challenge source. Original question statements and context are available on the [challenge website](https://maitysoumik.github.io/basic-coding-with-c/) and its [source repository](https://github.com/maitysoumik/basic-coding-with-c).
 
 ## Progress
 
-- **Days:** 82 / 82
-- **Programs:** 132 / 132
+- **Days:** 96 / 100
+- **Programs:** 146 / 146
 - **Compiler:** GCC 16.2.0, `-std=c11 -Wall -Wextra -pedantic`
-- **Compilation:** 132 passed, 0 failed, 0 compiler diagnostics
-- **Sample checks:** 235 passed, 7 mismatched published expected outputs, 3 skipped because the source provides explanatory prose instead of an expected output
+- **Compilation:** 146 passed, 0 failed, 0 compiler diagnostics
+- **Sample checks:** 248 passed, 7 mismatched published expected outputs, 4 skipped because the source provides explanatory prose instead of concrete runnable data
 
-All sample cases are recorded in [`tests/samples.json`](tests/samples.json). Detailed compiler output and per-case results are in [`verification-report.json`](verification-report.json). Mismatches are reported as published; expected values have not been changed to make tests pass. The question bank contains inconsistent examples for circle circumference, compound interest, two fraction series, title-case punctuation, and file character/word counts.
+All sample cases are recorded in [`tests/samples.json`](tests/samples.json). Detailed compiler output and per-case results are in [`verification-report.json`](verification-report.json). Mismatches are reported as published; expected values have not been changed to make tests pass. The 7 mismatches are inherited from the original Days 01–82 verification and reflect inconsistent published examples for circle circumference, compound interest, two fraction series, title-case punctuation, and file character/word counts. The four skips include three inherited prose-only expectations and Question 142, whose published sample describes five records without supplying them.
 
 ## Day-wise solution index
 
-Questions 1–100 are scheduled two per day. Questions 101–132 are scheduled one per day, starting on Day 51. Each source begins with a concise problem summary and contains an original solution. The complete original statements remain linked at the challenge source.
+Questions 1–100 are scheduled two per day. Questions 101–146 are scheduled one per day, starting on Day 51. Each solution begins with the exact source question statement in a comment and contains an original implementation.
 
 | Day | Questions |
 |---|---|
@@ -100,6 +100,20 @@ Questions 1–100 are scheduled two per day. Questions 101–132 are scheduled o
 | Day 80 | [Question 130](Day80/Question_130.c) |
 | Day 81 | [Question 131](Day81/Question_131.c) |
 | Day 82 | [Question 132](Day82/Question_132.c) |
+| Day 83 | [Question 133](Day83/Question_133.c) |
+| Day 84 | [Question 134](Day84/Question_134.c) |
+| Day 85 | [Question 135](Day85/Question_135.c) |
+| Day 86 | [Question 136](Day86/Question_136.c) |
+| Day 87 | [Question 137](Day87/Question_137.c) |
+| Day 88 | [Question 138](Day88/Question_138.c) |
+| Day 89 | [Question 139](Day89/Question_139.c) |
+| Day 90 | [Question 140](Day90/Question_140.c) |
+| Day 91 | [Question 141](Day91/Question_141.c) |
+| Day 92 | [Question 142](Day92/Question_142.c) |
+| Day 93 | [Question 143](Day93/Question_143.c) |
+| Day 94 | [Question 144](Day94/Question_144.c) |
+| Day 95 | [Question 145](Day95/Question_145.c) |
+| Day 96 | [Question 146](Day96/Question_146.c) |
 
 ## Compile and verify
 
@@ -118,11 +132,11 @@ gcc -std=c11 -Wall -Wextra -pedantic Day01/Question_1.c -o question.exe
 .\question.exe
 ```
 
-- **Git commits:** 82 challenge commits, one for each day.
+- **Git commits:** 96 challenge commits, one for each day.
 
 ## Simulated Git timeline
 
-The 82 commit dates from **August 14, 2026 through November 3, 2026 (Asia/Kolkata)** are an explicitly simulated hackathon timeline requested for this project. They are not the dates the solutions were written. Author and committer dates are set to the disclosed simulation dates; GitHub may cache or aggregate contribution activity, and no contribution-graph result is guaranteed.
+The 96 commit dates from **August 14, 2026 through November 17, 2026 (Asia/Kolkata)** form an explicitly simulated hackathon timeline requested for this project. They are not evidence of when the solutions were actually written or submitted. Author and committer dates are set to the disclosed simulation dates. GitHub may cache or aggregate contribution activity, and no contribution-graph result is guaranteed.
 
 ## AI assistance
 

@@ -30,8 +30,8 @@ def main() -> int:
         row={"file":str(src.relative_to(ROOT)),"compile":"passed" if comp.returncode==0 else "failed","compiler_output":(comp.stderr+comp.stdout).strip(),"samples":[]}
         if comp.returncode==0:
             for i,case in enumerate(samples.get(qid,[]),1):
-                if case["output"].startswith(("Note:", "Pattern with")):
-                    row["samples"].append({"case":i,"status":"skipped","reason":"Source provides descriptive note instead of a concrete expected output"})
+                if case["output"].startswith(("Note:", "Pattern with")) or case["input"].startswith("Details of "):
+                    row["samples"].append({"case":i,"status":"skipped","reason":"Published sample is descriptive prose and does not provide concrete records to run"})
                     continue
                 with tempfile.TemporaryDirectory(prefix="c11-sample-") as temp:
                     cwd = pathlib.Path(temp)
@@ -44,10 +44,10 @@ def main() -> int:
                     passed = run.returncode==0 and actual==expected and files_ok
                     row["samples"].append({"case":i,"status":"passed" if passed else "failed","expected":expected,"actual":actual,"returncode":run.returncode,"expected_files_ok":files_ok})
         results.append(row)
-    report={"compiler":CC or "not found","flags":["-std=c11","-Wall","-Wextra","-pedantic"],"source_files_found":len(sources),"source_files_expected":132,"compiled":sum(x["compile"]=="passed" for x in results),"compile_failures":sum(x["compile"]=="failed" for x in results),"sample_cases_run":sum(len(x["samples"]) for x in results),"sample_passes":sum(c["status"]=="passed" for x in results for c in x["samples"]),"sample_skipped":sum(c["status"]=="skipped" for x in results for c in x["samples"]),"sample_failures":sum(c["status"]=="failed" for x in results for c in x["samples"]),"files":results}
+    report={"compiler":CC or "not found","flags":["-std=c11","-Wall","-Wextra","-pedantic"],"source_files_found":len(sources),"source_files_expected":len(sources) if selected else 146,"compiled":sum(x["compile"]=="passed" for x in results),"compile_failures":sum(x["compile"]=="failed" for x in results),"sample_cases_run":sum(len(x["samples"]) for x in results),"sample_passes":sum(c["status"]=="passed" for x in results for c in x["samples"]),"sample_skipped":sum(c["status"]=="skipped" for x in results for c in x["samples"]),"sample_failures":sum(c["status"]=="failed" for x in results for c in x["samples"]),"files":results}
     REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print(json.dumps({k:v for k,v in report.items() if k!="files"},indent=2))
-    return 0 if len(sources)==132 and report["compiled"]==132 and report["sample_failures"]==0 else 1
+    return 0 if report["compiled"]==len(sources) and report["sample_failures"]==0 else 1
 
 if __name__ == "__main__":
     sys.exit(main())
